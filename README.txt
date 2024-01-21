@@ -45,7 +45,7 @@ steps:
      * fsharp
 
     On a Debian (>> squeezy) or Ubuntu (>= 14.04 LTS) system, this suffices:
-      $ sudo apt-get install build-essential python mono-complete mono-xbuild fsharp
+      $ sudo apt-get install build-essential python mono-complete mono-devel mono-xbuild fsharp
 
     On OS X, install the Mono MDK for Mac OS from
        http://www.mono-project.com/download/
@@ -364,6 +364,7 @@ Implementation:
                                  ------
 The following people have contributed to this version of T2:
 
+* Martin Mirchev (National University of Singapore)
 * Josh Berdine (MSR Researcher)
 * Mary Boeker (12 week undergraduate intern, Queen Mary University of London)
 * Marc Brockschmidt (MSR Researcher)
